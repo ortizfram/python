@@ -40,5 +40,52 @@ print(sector_amount)
 
 
 
+#--Str()---------CONVERT.EXPRESSIONS_AverageSizes
+total = 2048 + 4357 + 97658 + 125 + 8
+files = 5   #explicit Converion: manually #Implicit: automatically
+average = total / files
+print("The average size is: " + str(average))
+
+#----------------sharingBill + Tip
+bill = 47.28
+tip = bill * 0.15
+total = bill + tip
+share = total/2
+print("Each person needs to pay: "+ str(share))#int to float
+
+
+#---------------fixTheError//// the result is equal to 1, and display
+# the result on the screen. Unfortunately, there
+# is an error in the code. Find the error and fix it, so that the output is correct.
+#//////
+# #numerator = 10
+# denominator = 0
+# result = numerator / denominator
+# print(result)
+
+numerator = 10
+denominator = 0
+result = (numerator / denominator) if denominator != 0 else 1
+print(result)
+
+#-----------combiningVariables
+word1 = "How"
+word2 = "do"
+word3 = "you"
+word4 = "like"
+word5 = "Python"
+word6 = "so"
+word7 = "far?"
+
+print(word1+ " " + word2 + " " + word3 + " " + word4 + " " + word5+ " " + word6+ " " + word7)
+
+#-----------fixTheOutput// is supposed to display "2 + 2 = 4"
+#print("2 + 2 = " + (2 + 2))
+print("2 + 2 = " + str(2 + 2))
+
+
+
+
+
 
 
